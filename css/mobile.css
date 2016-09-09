@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (max-width: 745px) {
+blockquote, .text { width:auto; }
+.wrapper { margin:0 10px 0 10px; }
+
+#arrow, .up { right:50%; font-size:31px; width:30px; height:30px;  }
+#arrow:before { line-height:43px; }
+.down { bottom:10px; }
+.up { bottom:10px; margin:0 -35px 0 0; }
+
+.down:hover { bottom:10px; }
+.up:hover { bottom:10px; }
+
+h1.logo { margin:0; }
+}
+
+
+
+
+@media (max-width: 745px) {
+
+h1.logo { margin:0; }
+
+nav { position:absolute; top:0; right:0; border-left:1px solid #000; background-color:#fff; height:100px; padding:40px 0 20px 10px; }
+.navSwitcher { border:0; text-align:left; padding:5px 0 5px 10px; margin:0; position:absolute; top:5px; left:-50px; background-color:#fff; }
+.navSwitcher:before { font-size:20px; float:left; width:20px; height:16px; line-height:24px; display:none; }
+ul { margin:0; padding:0; list-style:none; position:relative; z-index:1; }
+ul li { margin:0 0 7px 0; }
+
+
+.sign { display:none; }
+#nav-icon { display:block; }
+
+nav.closed { animation: closed 1s cubic-bezier(0.77, 0, 0.175, 1) forwards; }
+nav.closed.active { animation: opened 1s cubic-bezier(0.77, 0, 0.175, 1) forwards; }
+
+
+}
+
+
+
+@keyframes opened { 0% { right:-90px; } 100% { right:0px; } }
+@keyframes closed { 0% { right:0; } 100% { right:-90px ; } }
+
+
+
+
+
+
+
