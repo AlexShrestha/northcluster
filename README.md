@@ -1,7 +1,7 @@
-# gluedbeard
+# northcluster
 Startup Friendly Agency
 
 We help Startups crystalise ideas and make them into beautiful products. 
 
-hi (at) gluedbeard.com
+alex (at) northcluster.com
 # northcluster
